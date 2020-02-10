@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: auto ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .navigation {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 3% auto;
+    height: 70px;
+    background: #1d1e25;
+    top: 0px;
+  }
+  
+  .logo {
+    height: 50%;
+    width: 100%;
+    padding: 20px 0px 0px 10px;
+  }
+  .nav-items {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10px;
+  }
+  .item-title {
+    display: grid;
+    grid-template-rows: auto auto; 
+    margin-left: 20px;
+    font-family: Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif !important;
+    font-weight: 400;
+    font-size: 15px;
+    height: 100%;
+  }
+  .fcc {
+    color: white;
+  }
+  
+  .pen {
+    color: #9a9cac;
+  }
+  .free {
+    color: white;
+  }
+  .btn-1 {
+    border: 3px solid #9a9cac;
+    border-radius: 2px;
+    background: transparent;
+    margin: 0px 10px 0px 0px;
+    padding: 7px 16px;
+  } */
+
+
+  /* ---------body--------- */
+
+.main-page{
+  
+  background: url("https://images.unsplash.com/flagged/photo-1574164908900-6275ca361157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  /* opacity: 0.5; */
+}
+
+#title{
+  color:white;
+  font-weight: 400;
+    line-height: 1.2;
+    font-size: 32px;
+  /* opacity: 1 !important; */
+}
+#description{
+  font-size: 18px;
+  font-weight: 400;
+  color: #f3f3f3;
+}
+#survey-form{
+  background: rgb(56, 56, 85, 0.8);
+  height: 90vh;
+  opacity: 0.7;
+  width: 50%;
+  margin: auto;
+  
+  padding: 30px 20px 0px 20px;
+  text-align: start;
+
+}
+
+.fname, .email-label, #age{
+  color: white;
+}
+
+#name {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: start;
+}
+
+
+#email {
+  width: 100%;
+  padding: 10px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: start;
+}
+
+#age {
+  width: 100%;
+  padding: 10px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: start;
+}

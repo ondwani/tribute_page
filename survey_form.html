@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel = "stylesheet" href = "survey_form.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+<main >
+    <div class = "main-page">
+        <div>
+            <h1 id = "title">freeCodeCamp Survey Form</h1>
+            <p id = "description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        </div>
+
+<div >
+    <form id = "survey-form" >
+        <label for = "fname" class = "fname">Name</label>
+        </br>
+        <input id = "name" name = "firstname" type="text" placeholder="Enter your name" required>
+      
+         <label for = "email" class = "email-label">Email</label>
+        </br>
+        <input id = "email" name = "email" type="email" placeholder="Enter your email" required>
+        <label for="age">Age (optional)</label>
+    <select id="age" name="age">
+      <option value="10">11</option>
+      <option value="11">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+    </select>
+    </form>
+    
+</div>
+        
+        
+    </div>
+
+</main>
+
+
+
+    <script src ="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
