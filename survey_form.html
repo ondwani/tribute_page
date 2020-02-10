@@ -15,13 +15,42 @@
 </head>
 <body>
 <main >
+    <header>
+        <nav class="navigation">
+            <img class = "logo" src = "https://res.cloudinary.com/dr5ei3rt1/image/upload/v1500504321/codepen1600_rd1mh7.png">
+
+            <div class="nav-items">
+                <div class = "item-title"> 
+                    <a href = "#" class="fcc">FCC: Tribute Page</a>
+                    <p class = "pen">A PEN BY <a class="free" href="#">free code camp</a></p>
+                </div>
+                <div>
+                    <ul>
+                        <a href="#" >
+                            <button class = "btn-1"> <img src="https://img.icons8.com/office/20/000000/like.png"></button>
+                        </a>
+                        <a href ="#">
+                            <button class = "btn-2"> <img src="https://img.icons8.com/offices/30/000000/mark-view-as-non-hidden.png"> <span>Change View</span></button>    
+                        </a>
+                        <a href = "#">
+                            <button class = "btn-3"><img src="https://img.icons8.com/office/16/000000/pin.png"></button>
+                        </a>
+                        <a href = "#">
+                            <button class = "btn-4"> <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5--v1.png"></button>
+                        </a>                
+                    </ul>
+                </div>
+
+                </div>       
+        </nav> 
+    </header>
     <div class = "main-page">
         <div>
             <h1 id = "title">freeCodeCamp Survey Form</h1>
             <p id = "description"><em>Thank you for taking the time to help us improve the platform</em></p>
         </div>
 
-<div >
+<div>
     <form id = "survey-form" >
 
         <label for = "fname" id = "name-label">Name</label>
@@ -36,18 +65,20 @@
         <label for = "recommendation">Would you recommend freeCodeCamp to a friend?</label> <br>
         <input type = "radio" name = "recommend" value = "Definately" checked > Definately <br>
         <input type = "radio" name = "recommend" value = "Maybe" > Maybe <br>
-        <input type = "radio" name = "recommend" value = "Not sure" > Not sure
+        <input type = "radio" name = "recommend" value = "Not sure" > Not sure <br>
 
         <label for = "fav">What is your favorite feature of freeCodeCamp?</label> <br>
-        <select id = "dropdown">
+        <select id = "dropdown" >
+            <option value = "Select" disabled selected value>Select an option</option>
             <option value = "Challenges">Challenges</option>
             <option value = "Projects">Projects</option>
             <option value = "Community">Community</option>
             <option value = "Open Source">Open Source</option>
         </select><br>
 
-        <label for = "improve">What would you like to see improved? (Check all that apply)</label>
-        <input type="checkbox" name="" value="front-end">
+        <label for ="improve">What would you like to see improved? (Check all that apply)</label><br>
+        <div class = "check">
+            <input type="checkbox" name="" value="front-end">
         <label for="improve-1"> Front-end Projects</label><br>
         <input type="checkbox" name="" value="back-end">
         <label for="improve-2"> Back-end Projects</label><br>
@@ -69,22 +100,19 @@
         <label for="improve-10"> Forum</label><br>
         <input type="checkbox" name="" value="courses">
         <label for="improve-11"> Additional Courses</label><br>
+        </div>
+        
 
         <label for = "comments">Any comments or suggestions?</label><br>
-        <textarea id = "comments" rows = "4" cols = "80" ></textarea>
+        <textarea id = "comments" rows = "4" cols = "81" ></textarea>
 
         <button id = "submit"> Submit </button>
     </form>
     
+</div>      
 </div>
-        
-        
-    </div>
 
 </main>
-
-
-
     <script src ="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
