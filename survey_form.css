@@ -1,9 +1,9 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    height: auto ;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: auto;
+  font-family: "Poppins", sans-serif;
 }
 
 /* .navigation {
@@ -52,13 +52,11 @@ body{
     padding: 7px 16px;
   } */
 
+/* ---------body--------- */
 
-  /* ---------body--------- */
-
-.main-page{
-  
+.main-page {
+  height: auto;
   background: url("https://images.unsplash.com/flagged/photo-1574164908900-6275ca361157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,32 +66,29 @@ body{
   /* opacity: 0.5; */
 }
 
-#title{
-  color:white;
+#title {
+  color: white;
   font-weight: 400;
-    line-height: 1.2;
-    font-size: 32px;
+  line-height: 1.2;
+  font-size: 32px;
   /* opacity: 1 !important; */
 }
-#description{
+#description {
   font-size: 18px;
   font-weight: 400;
   color: #f3f3f3;
 }
-#survey-form{
+#survey-form {
   background: rgb(56, 56, 85, 0.8);
   height: 90vh;
   opacity: 0.7;
   width: 50%;
   margin: auto;
-  
   padding: 30px 20px 0px 20px;
   text-align: start;
-
-}
-
-.fname, .email-label, #age{
   color: white;
+  font-weight: 400;
+  height: auto;
 }
 
 #name {
@@ -107,7 +102,6 @@ body{
   justify-content: start;
 }
 
-
 #email {
   width: 100%;
   padding: 10px 20px;
@@ -119,13 +113,14 @@ body{
   justify-content: start;
 }
 
-#age {
+#number {
   width: 100%;
   padding: 10px 20px;
-  margin: auto;
+  margin: 10px auto;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   justify-content: start;
+  color: black;
 }

@@ -23,21 +23,57 @@
 
 <div >
     <form id = "survey-form" >
-        <label for = "fname" class = "fname">Name</label>
-        </br>
+
+        <label for = "fname" id = "name-label">Name</label>
         <input id = "name" name = "firstname" type="text" placeholder="Enter your name" required>
-      
-         <label for = "email" class = "email-label">Email</label>
-        </br>
+
+        <label for = "email" id = "email-label">Email</label>
         <input id = "email" name = "email" type="email" placeholder="Enter your email" required>
-        <label for="age">Age (optional)</label>
-    <select id="age" name="age">
-      <option value="10">11</option>
-      <option value="11">12</option>
-      <option value="13">13</option>
-      <option value="14">14</option>
-      <option value="15">15</option>
-    </select>
+
+        <label for="age" id= "number-label">Age (optional)</label>
+        <input id="number" min = "13" max = "100" name="age" type="number" required  placeholder="Age"></input>
+
+        <label for = "recommendation">Would you recommend freeCodeCamp to a friend?</label> <br>
+        <input type = "radio" name = "recommend" value = "Definately" checked > Definately <br>
+        <input type = "radio" name = "recommend" value = "Maybe" > Maybe <br>
+        <input type = "radio" name = "recommend" value = "Not sure" > Not sure
+
+        <label for = "fav">What is your favorite feature of freeCodeCamp?</label> <br>
+        <select id = "dropdown">
+            <option value = "Challenges">Challenges</option>
+            <option value = "Projects">Projects</option>
+            <option value = "Community">Community</option>
+            <option value = "Open Source">Open Source</option>
+        </select><br>
+
+        <label for = "improve">What would you like to see improved? (Check all that apply)</label>
+        <input type="checkbox" name="" value="front-end">
+        <label for="improve-1"> Front-end Projects</label><br>
+        <input type="checkbox" name="" value="back-end">
+        <label for="improve-2"> Back-end Projects</label><br>
+        <input type="checkbox" name="" value="data-vis">
+        <label for="improve-3"> Data Visualization</label><br>
+        <input type="checkbox" name="" value="challenges">
+        <label for="improve-4"> Challengess</label><br>
+        <input type="checkbox" name="" value="open-source">
+        <label for="improve-5"> Open Source Community</label><br>
+        <input type="checkbox" name="" value="gitter">
+        <label for="improve-6"> Gitter help rooms</label><br>
+        <input type="checkbox" name="" value="videos">
+        <label for="improve-7"> Videos</label><br>
+        <input type="checkbox" name="" value="meetups">
+        <label for="improve-8"> City Meetups</label><br>
+        <input type="checkbox" name="" value="wiki">
+        <label for="improve-9"> Wiki</label><br>
+        <input type="checkbox" name="" value="forums">
+        <label for="improve-10"> Forum</label><br>
+        <input type="checkbox" name="" value="courses">
+        <label for="improve-11"> Additional Courses</label><br>
+
+        <label for = "comments">Any comments or suggestions?</label><br>
+        <textarea id = "comments" rows = "4" cols = "80" ></textarea>
+
+        <button id = "submit"> Submit </button>
     </form>
     
 </div>
